@@ -1,0 +1,12 @@
+{% extends 'main.html' %} 
+{% block content %}
+
+{% if number > 5 %}
+<p>grater than 5</p>
+{% else %}
+<p>less then 5</p>
+{% endif %}
+<p>{{message}}</p>
+<p>{{number}}</p>
+<h1>Single project template</h1>
+{% endblock content %}
